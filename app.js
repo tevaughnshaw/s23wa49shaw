@@ -14,7 +14,7 @@ var app = express();
 
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
-}
+})
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
